@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import Grid from 'react-bootstrap/lib/Grid';
+
+class HomePage extends Component {
+  render() {
+    return (
+      <div>
+        <Grid>
+          <Row className = "show-grid">
+            <Col xs={12} md={8}>
+              <code>{'<Col xs={12} md={8} />'};</code>
+            </Col>
+            <Col xs={6} md={4}>
+              <code>{'<Col xs={6} md={4} />'}</code>
+            </Col>
+          </Row>
+        </Grid>
+      </div>
+    )
+  }
+}
+
+export default HomePage;
