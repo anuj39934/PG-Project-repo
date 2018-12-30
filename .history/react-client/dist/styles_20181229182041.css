@@ -1,0 +1,57 @@
+header {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+#headerButtons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navButton {
+    float: right;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+/*button styles*/
+
+.custom-btn {
+    background-color: aqua;
+    border: 2px solid grey;
+    border-radius: 2px;
+    color: red;
+}
+
+/*Home Page styles*/
+
+.home-page-header {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.home-page-header-title {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.home-page-header-options {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 690px;
+    margin-right: 200px;
+    justify-content: space-around;
+}

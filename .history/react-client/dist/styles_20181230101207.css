@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 24px;
+    position: relative;
+}
+
+header {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+#headerButtons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navButton {
+    float: right;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+/*button styles*/
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 100%;
+    color: red;
+}
+
+.custom-btn {
+    padding: 10px 12px 8px 12px;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    border-radius: 27em;
+    cursor: pointer;
+    background-color: rgb(27, 99, 206);
+    color: white;
+}
+
+/* Custom option styles */
+
+.custom-options {
+    cursor: pointer;
+    padding-top: 0.5em;
+}
+
+/*Home Page styles*/
+
+.home-page {
+    background-color: aquamarine;
+    height: -webkit-fill-available;
+}
+
+.home-page-header {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+.home-page-header-title {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.home-page-header-options {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 690px;
+    margin-right: 200px;
+    justify-content: space-around;
+}
+
+/* Home Page Body Style */
+
+.home-page-body {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.home-page-body-title{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  line-height: 200%;
+}
+
+.home-page-body-title-subtitle {
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: auto;
+}
+
+.home-page-body-searchBar{
+  display: flex;
+  width: 100%;
+}
+
+/* Custom Dropdown Styles */
+.custom-dropdown {
+  display: inline-block;
+}
+.custom-dropdown-carot {
+  display: inline-block;
+}

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.home-page-header-title {
+    flex-grow: 1;
+}
+
+.home-page-header-options{
+    flex-grow: 1;
+}
